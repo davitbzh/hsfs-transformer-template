@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Learn more: https://github.com/kennethreitz/setup.py
-
+import os
 from setuptools import setup, find_packages
 
 def read(fname):
