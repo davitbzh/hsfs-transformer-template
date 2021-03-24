@@ -9,15 +9,15 @@ def read(fname):
 
 
 setup(
-    name="hsfs_transformer",
+    name="hsfs_transformer_template",
     version="0.1.0",
     description='Template for hsfs transformer function(s) development',
     author="Logical Clocks AB",
     author_email="davit@logicalclocks.com",
     license="Apache License 2.0",
     keywords="Hopsworks, Feature Store, Spark, Machine Learning, MLOps, DataOps",
-    url="https://github.com/logicalclocks/feature-store-api",
-    download_url="https://github.com/logicalclocks/feature-store-api/releases/tag/"
+    url="https://github.com/davitbzh/hsfs-transformer-template.git",
+    download_url="https://github.com/davitbzh/hsfs-transformer-template/releases/tag/"
                  + "0.1.0",
     packages=find_packages(),
     long_description=read("README.md"),
