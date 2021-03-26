@@ -13,6 +13,7 @@ from hsfs.core import (
 )
 from hsfs.constructor import query
 
+from hsfs_transformers.pandas_udfs import pandas_plus_one
 # Use udf to define a row-at-a-time udf
 @udf('double')
 # Input/output are both a single double value
