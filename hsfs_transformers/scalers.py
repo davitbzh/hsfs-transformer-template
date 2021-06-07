@@ -1,4 +1,4 @@
-def min_max_normalizer(x):
+def min_max(x):
     if x is None:
         x = 0
     min = -1
